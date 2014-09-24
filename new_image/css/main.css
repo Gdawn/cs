@@ -1,0 +1,31 @@
+@charset "utf-8";
+ul{ list-style:none;}	
+button{ border:0 none; padding:0; cursor:pointer; outline:0}
+img{ border:0;}
+a{ text-decoration:none; color:#000; outline:0}
+.wrap{ width:960px; margin:0 auto;}
+.clear {clear:both;}
+.clear_fix {zoom:1;}
+.clear_fix:after {display:block;clear:both;content:".";visibility:hidden;height:0;font-size:0;}
+
+/*index*/
+.index a{ color:#464646}
+#focus{ width:auto; height:auto; border:2px solid #7a7a7a; margin-right:7px; overflow:hidden; position:relative}
+#focus a{ position:relative; zoom:1;}
+#focus p{ position:absolute; height:38px; line-height:38px; padding-left:15px; bottom:0; _bottom:-2px; left:0; color:#fff; font-size:13px; font-weight:bold}
+#focus p span{float:left;}
+#focus a:hover .text{text-decoration:underline; cursor:pointer}
+#focus p .play{ background: url(../images/banner_play.png) no-repeat;_background:none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(scr= '../images/banner_play.png', sizingMethod='crop'); width:33px; height:34px; margin-left:10px; display:inline; margin-top:2px; cursor:pointer;}
+#focus s{ position:absolute; height:38px; line-height:38px; width:100%; bottom:0; _bottom:-2px; left:0;filter:Alpha(Opacity=70); Opacity:0.7; background:#000; cursor:pointer}
+#ctr { position:absolute; bottom:12px; _bottom:10px; right:17px; z-index:2; color:#fff;font-family:Arial, Helvetica, sans-serif; font-size:10px}
+#ctr span{ background:url(../images/doc.png?20121224) no-repeat; _background:none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/doc.png', sizingMethod='crop'); text-align:center; width:12px; height:11px; float:left; margin-right:7px; cursor:pointer}
+#ctr span.current{ background:url(../images/doc_hover.png?20121224) no-repeat;_background:none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/doc_hover.png?20121224', sizingMethod='crop');}
+.banner .download{ width:257px; height:268px; position:relative; margin-bottom:5px}
+.banner .download img{ vertical-align:bottom;}
+.banner .download a.link_img_down{ background:url(../images/download_btn.png) no-repeat;_background:none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/download_btn.png', sizingMethod='crop'); position:absolute; width:257px; height:47px; bottom:0; left:0; cursor:pointer}
+ .banner .download a.link_img_down:hover{ background:url(../images/download_btn_hover.png) no-repeat;_background:none;
+ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/download_btn_hover.png', sizingMethod='crop');}

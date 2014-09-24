@@ -1,0 +1,87 @@
+#logo{
+	margin-top:-8px;
+}
+#index-top{
+	height:28px;
+	width:1003px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#index-top-1{
+	float:left;
+	background:url(../images/index-top-1.jpg);
+	width:77px;
+	height:28px;
+}
+#index-top-2{
+	float:left;
+	background:url(../images/index-top-2.jpg);
+	width:13px;
+	height:28px;
+}
+#index-top-3{
+	float:right;
+	background:url(../images/index-top-4.jpg);
+	width:32px;
+	height:28px;
+}
+#index-div{
+	background:url(../images/index-top-3.jpg);
+	height:28px;
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#index-div-1{
+	height:28px;
+	padding-top:4px;
+	float:left;
+	margin-left:5%;
+}
+#a-link{
+	width:100px;
+	text-align:center; 
+	position:relative;
+	color:black;
+}
+#a-link a:link,#daoh a:visited{
+	line-height:28px;
+	text-decoration:none; 
+	width:100px; 
+	height:28px;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+#a-link a:hover { 
+color:blue; 
+} 
+#daoh{
+	color:black;
+	font-family:"微软雅黑";
+	font-size:15px;
+}
+#index_date{
+	font-family:"微软雅黑";
+	font-size:12px;
+}
+#search{
+	float:right;
+	margin-right:20px;
+}
+#image-top{
+	width:1003px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#message-1{
+	background:url(../images/message-1.png);
+	width:180px;
+}
+
+
+
+
+
